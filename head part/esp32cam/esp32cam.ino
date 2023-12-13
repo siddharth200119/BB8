@@ -65,7 +65,7 @@ void setup() {
   camera_config.pin_sccb_sda = 26;
   camera_config.pin_pwdn = 32;
   camera_config.pin_reset = -1;
-  camera_config.xclk_freq_hz = 20000000;
+  camera_config.xclk_freq_hz = 15000000;
   camera_config.pixel_format = PIXFORMAT_YUV422; // Raw RGB format
   camera_config.frame_size = FRAMESIZE_QVGA; // Reduced frame size
   camera_config.jpeg_quality = 12; // Not applicable for raw format
